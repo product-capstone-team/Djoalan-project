@@ -6,7 +6,7 @@ The improvement of the retail system is easier, safer, and supports transparency
 **Djoalan** is a self - service system in the form of mobile application built using the kotlin programming language for retail shopping. By utilizing object recognition installed in Djoalan it allows customers to make purchases without needing a cashier
 
 
-## Application feature
+## Feature
 Our application provide many feature such as:
 1. Authentication ( including register, sign-in, and update account )
 2. Bottom Navigation with 4 options of menu
