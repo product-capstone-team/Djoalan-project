@@ -1,0 +1,34 @@
+{
+   "name": "backend-api-mongo",
+   "version": "1.0.0",
+   "description": "",
+   "main": "index.js",
+   "scripts": {
+      "start": "nodemon server.js",
+      "docker-start": "node server.js"
+   },
+   "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Chris503g/Backend-API-Mongo.git"
+   },
+   "keywords": [],
+   "author": "",
+   "license": "ISC",
+   "bugs": {
+      "url": "https://github.com/Chris503g/Backend-API-Mongo/issues"
+   },
+   "homepage": "https://github.com/Chris503g/Backend-API-Mongo#readme",
+   "devDependencies": {
+      "nodemon": "^2.0.16"
+   },
+   "dependencies": {
+      "@google-cloud/storage": "^6.0.1",
+      "@hapi/cookie": "^11.0.2",
+      "@hapi/hapi": "^20.2.2",
+      "@hapi/joi": "^17.1.1",
+      "hapi-mongodb": "^10.0.3",
+      "joi-objectid": "^4.0.2",
+      "mongoose": "^6.3.4",
+      "xendit-node": "^1.21.3"
+   }
+}
