@@ -25,6 +25,9 @@ Used to store data for the application, consisting of  4 collections(tables) use
 
 - ### Postman
 Use for API testing
+- User Request: https://documenter.getpostman.com/view/19974951/Uz5CMJHV
+- Item Request: https://documenter.getpostman.com/view/19974951/Uz5CMJSS
+- Transaction Request: https://documenter.getpostman.com/view/19974951/Uz5CMJWj
 
 ## Optional : 
 - ### Docker Desktop 
