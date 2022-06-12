@@ -33,3 +33,40 @@ This application was built with:
 11. [Hilt](https://developer.android.com/training/dependency-injection/hilt-android) is a dependency injection library for Android that reduces the boilerplate of doing manual dependency injection by providing containers for every Android class in your project and managing their lifecycles automatically.
 12. [Glide](https://github.com/bumptech/glide) is a fast and efficient open source media management and image loading framework for Android that wraps media decoding, memory and disk caching, and resource pooling into a simple and easy to use interface.
 13. [TensorFlow Lite](https://www.tensorflow.org/lite) is a mobile library for deploying models on mobile, microcontrollers and other edge devices.
+
+## Google cloud services: 
+- ### Cloud Run 
+Cloud Run is a serverless application, used as a service to deploy the API.
+- ### Cloud Storage 
+Use as a database to store images 
+- ### Google Compute Engine
+Runs a virtual machine containing MongoDB server, use by its external IP address
+
+## Database: 
+- ### MongoDB
+Used to store data for the application, consisting of  4 collections(tables) users, items, transactions, & requestPayment.
+
+## API: 
+- ### NodeJs (Hapi)
+  - Dependencies: 
+    - @google-cloud/storage: ^6.0.1
+    - @hapi/cookie: ^11.0.2
+    - @hapi/hapi: ^20.2.2
+    - @hapi/joi: ^17.1.1
+    - hapi-mongodb: ^10.0.3
+    - joi-objectid: ^4.0.2
+    - mongoose: ^6.3.4
+    - xendit-node: ^1.21.3
+
+- ### Postman
+Use for API testing
+
+## Optional : 
+- ### Docker Desktop 
+Used to containerize API by creating a dockerfile to test whether the docker image functions properly before deploying. 
+
+## Flow Chart:
+![Flowchart CC drawio](https://user-images.githubusercontent.com/75570657/173223922-1ac1dbcb-6228-482b-aebd-7aee496b5472.png)
+
+
+
