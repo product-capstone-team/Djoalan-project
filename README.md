@@ -32,4 +32,4 @@ This application was built with:
 10. [Datastore](https://developer.android.com/topic/libraries/architecture/datastore) is a data storage solution that allows you to store key-value pairs or typed objects with protocol buffers.
 11. [Hilt](https://developer.android.com/training/dependency-injection/hilt-android) is a dependency injection library for Android that reduces the boilerplate of doing manual dependency injection by providing containers for every Android class in your project and managing their lifecycles automatically.
 12. [Glide](https://github.com/bumptech/glide) is a fast and efficient open source media management and image loading framework for Android that wraps media decoding, memory and disk caching, and resource pooling into a simple and easy to use interface.
-13. [TensorFlow](https://www.tensorflow.org/lite) Lite is a mobile library for deploying models on mobile, microcontrollers and other edge devices.
+13. [TensorFlow Lite](https://www.tensorflow.org/lite) is a mobile library for deploying models on mobile, microcontrollers and other edge devices.
