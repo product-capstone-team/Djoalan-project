@@ -1,6 +1,6 @@
 ## Google cloud services: 
 - #### Cloud Run 
-- Cloud Run is a serverless application, used as a service to deploy the API.
+Cloud Run is a serverless application, used as a service to deploy the API.
 #### Cloud Storage 
 Use as a database to store images 
 #### Google Compute Engine
