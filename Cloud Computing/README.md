@@ -1,18 +1,17 @@
-This folder purpose is to store CC file
 ## Google cloud services: 
-### Cloud Run 
+#### Cloud Run 
 - Cloud Run is a serverless application, used as a service to deploy the API.
-### Cloud Storage 
+#### Cloud Storage 
 Use as a database to store images 
-### Google Compute Engine
+#### Google Compute Engine
 Runs a virtual machine containing MongoDB server, use by its external IP address
 
-## Database: 
-### MongoDB
+### Database: 
+#### MongoDB
 Used to store data for the application, consisting of  4 collections(tables) users, items, transactions, & requestPayment.
 
 ### API: 
-## NodeJs (Hapi)
+#### NodeJs (Hapi)
 - Dependencies: 
 -- @google-cloud/storage: ^6.0.1
 -- @hapi/cookie: ^11.0.2
@@ -23,15 +22,15 @@ Used to store data for the application, consisting of  4 collections(tables) use
 -- mongoose: ^6.3.4
 -- xendit-node: ^1.21.3
 
-## Postman
+### Postman
 Use for API testing
 
 ### Optional : 
-## Docker Desktop 
+#### Docker Desktop 
 Used to containerize API by creating a dockerfile to test whether the docker image functions properly before deploying. 
 
 
-## Flow Chart:
+### Flow Chart:
 
 ![Flowchart CC drawio](https://user-images.githubusercontent.com/75570657/173223477-ac5d8611-7d8e-444a-825f-601990b43346.png)
 
