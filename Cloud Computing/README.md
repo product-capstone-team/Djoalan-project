@@ -14,13 +14,13 @@ Used to store data for the application, consisting of  4 collections(tables) use
 #### NodeJs (Hapi)
 - Dependencies: 
   - @google-cloud/storage: ^6.0.1
--- @hapi/cookie: ^11.0.2
--- @hapi/hapi: ^20.2.2
--- @hapi/joi: ^17.1.1
--- hapi-mongodb: ^10.0.3
--- joi-objectid: ^4.0.2
--- mongoose: ^6.3.4
--- xendit-node: ^1.21.3
+  - @hapi/cookie: ^11.0.2
+  - @hapi/hapi: ^20.2.2
+  - @hapi/joi: ^17.1.1
+  - hapi-mongodb: ^10.0.3
+  - joi-objectid: ^4.0.2
+  - mongoose: ^6.3.4
+  - xendit-node: ^1.21.3
 
 ### Postman
 Use for API testing
