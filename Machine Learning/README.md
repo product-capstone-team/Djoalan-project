@@ -11,7 +11,7 @@ we use Buycott Dataset as input model Convolutional Neural Network (CNN). We too
 ![00000000129220](https://user-images.githubusercontent.com/89289597/173224825-23114d06-c109-428d-9819-1636ac30eb28.png)
 
 
-##Data Preprocessing
+## Data Preprocessing
 We make a dataframe that consists of the image directory and image label. Then we resize the image, change it to grayscale to reduce the memory, cropping the image and making it to array format. After that we split the training and testing for the training and validation purpose.
 
 ## Building Model
