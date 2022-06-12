@@ -13,7 +13,7 @@ Used to store data for the application, consisting of  4 collections(tables) use
 ### API: 
 #### NodeJs (Hapi)
 - Dependencies: 
--- @google-cloud/storage: ^6.0.1
+  - @google-cloud/storage: ^6.0.1
 -- @hapi/cookie: ^11.0.2
 -- @hapi/hapi: ^20.2.2
 -- @hapi/joi: ^17.1.1
