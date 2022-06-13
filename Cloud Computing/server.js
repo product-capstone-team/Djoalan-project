@@ -16,7 +16,7 @@ const init = async () => {
       {
          plugin: require("hapi-mongodb"),
          options: {
-            url: "mongodb://34.124.224.131:27017/djoalan?directConnection=true",
+            url: "", // place your mongodb server here
             settings: {
                useUnifiedTopology: true,
             },
