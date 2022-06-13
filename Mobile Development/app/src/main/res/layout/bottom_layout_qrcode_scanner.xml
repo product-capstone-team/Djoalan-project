@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bottom_sheet"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:background="@drawable/bg_bottom_sheet"
+    android:padding="12dp"
+    app:behavior_hideable="false"
+    app:behavior_peekHeight="48dp"
+    app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior"
+    tools:showIn="@layout/activity_qrcode_scanner"
+    >
+
+    <ImageView
+        android:id="@+id/arrow_bottom_sheet"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:src="@drawable/arrow_up"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/label_shop_bottom"
+        style="@style/headerStyle"
+        android:layout_marginTop="28dp"
+        android:textColor="@color/black"
+        android:visibility="gone"
+        android:text="SHOP FOUND"
+        app:layout_constraintEnd_toEndOf="@+id/arrow_bottom_sheet"
+        app:layout_constraintStart_toStartOf="@+id/arrow_bottom_sheet"
+        app:layout_constraintTop_toBottomOf="@+id/arrow_bottom_sheet" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/layout_on_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_linear_layout_"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="45dp"
+        android:padding="4dp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/label_shop_bottom"
+        app:layout_constraintVertical_bias="1.0">
+
+        <TextView
+            android:id="@+id/store_name_bottom"
+            style="@style/subheaderStyle"
+            android:maxLines="1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="Indomaret Taman Cimanggu Bogor Barat" />
+
+        <TextView
+            android:id="@+id/company_name_bottom"
+            style="@style/regularStyle"
+            android:layout_marginTop="8dp"
+            android:textColor="@color/grey"
+            app:layout_constraintStart_toStartOf="@+id/store_name_bottom"
+            app:layout_constraintTop_toBottomOf="@+id/store_name_bottom"
+            tools:text="INDOMARET" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/msg_noitem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Scan store QR Code to start shopping."
+        android:textColor="@color/grey"
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="30dp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/arrow_bottom_sheet"
+        app:layout_constraintVertical_bias="0.047" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/arrow_bottom_sheet"
+        app:layout_constraintStart_toStartOf="@+id/arrow_bottom_sheet"
+        app:layout_constraintTop_toBottomOf="@+id/arrow_bottom_sheet" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

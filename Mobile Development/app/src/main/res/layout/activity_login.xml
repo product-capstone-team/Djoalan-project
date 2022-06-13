@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+    <ImageView
+        android:id="@+id/imageView_login"
+        android:layout_width="0dp"
+        android:layout_height="200dp"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="28dp"
+        android:alpha="0"
+        android:src="@drawable/logo_djoalan"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/label_login_email"
+        style="@style/subheaderStyle"
+        android:alpha="0"
+        android:layout_marginTop="44dp"
+        android:text="@string/label_email"
+        app:layout_constraintStart_toStartOf="@+id/imageView_login"
+        app:layout_constraintTop_toBottomOf="@+id/imageView_login" />
+
+    <com.dicoding.djoalanapplication.customview.EmailEditText
+        android:id="@+id/input_email_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:alpha="0"
+        android:layout_marginHorizontal="20dp"
+        app:layout_constraintStart_toStartOf="@+id/label_login_email"
+        app:layout_constraintTop_toBottomOf="@+id/label_login_email" />
+
+    <TextView
+        android:id="@+id/label_login_password"
+        style="@style/subheaderStyle"
+        android:layout_marginTop="16dp"
+        android:alpha="0"
+        android:text="@string/label_password"
+        app:layout_constraintStart_toStartOf="@+id/label_login_email"
+        app:layout_constraintTop_toBottomOf="@+id/input_email_login" />
+
+    <com.dicoding.djoalanapplication.customview.PasswordEditText
+        android:id="@+id/input_password_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:alpha="0"
+        android:layout_marginHorizontal="20dp"
+        app:layout_constraintStart_toStartOf="@+id/label_login_password"
+        app:layout_constraintTop_toBottomOf="@+id/label_login_password" />
+
+    <com.dicoding.djoalanapplication.customview.MyButton
+        android:id="@+id/myButton_login"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:paddingRight="0dp"
+        android:paddingLeft="10dp"
+        android:alpha="0"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="@string/btn_login"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/input_password_login" />
+
+    <TextView
+        android:id="@+id/textView_createacc"
+        style="@style/regularStyle"
+        android:layout_marginTop="16dp"
+        android:alpha="0"
+        android:text="@string/create_account"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/myButton_login" />
+
+    <com.dicoding.djoalanapplication.customview.MyButton
+        android:id="@+id/myButton_login_createaccount"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:alpha="0"
+        android:paddingRight="0dp"
+        android:paddingLeft="10dp"
+        android:text="@string/btn_register"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_createacc" />
+
+    <ProgressBar
+        android:id="@+id/progressBar_login"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:visibility="visible" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,102 @@
+[
+  {
+    "productId": "A01",
+    "name": "chitato Roasted Beef 200MG",
+    "brand": "chitato",
+    "expireDate": "2022-03-28T05:18:27 -07:00",
+    "price": 24500,
+    "category": "food",
+    "quantity": 1,
+    "imageUrl": "https://images.tokopedia.net/img/cache/500-square/VqbcmM/2021/3/3/59aa3f8c-2ee5-4134-801e-902076365594.jpg"
+  },
+  {
+    "productId": "A02",
+    "name": "pocari sweat botol 2L",
+    "brand": "pocari",
+    "expireDate": "2022-03-28T05:18:27 -07:00",
+    "price": 31800,
+    "category": "drink",
+    "quantity": 1,
+    "imageUrl": "https://www.heymart.id/wp-content/uploads/2020/07/POCARI-SWEAT-Ion-Supply-Drink-2-liter-1-Botol.jpg"
+  },
+  {
+    "productId": "A03",
+    "name": "doritos nacho cheese",
+    "brand": "doritos",
+    "expireDate": "2022-03-28T05:18:27 -07:00",
+    "price": 13400,
+    "category": "food",
+    "quantity": 1,
+    "imageUrl": "https://www.ubuy.co.id/productimg/?image=aHR0cHM6Ly9tLm1lZGlhLWFtYXpvbi5jb20vaW1hZ2VzL0kvNzFNUWVJUzdGQUwuX1NMMTUwMF8uanBn.jpg"
+  },
+  {
+    "productId": "A04",
+    "name": "snickers chocolate bar",
+    "brand": "snickers",
+    "expireDate": "2022-03-28T05:18:27 -07:00",
+    "price": 45500,
+    "category": "food",
+    "quantity": 1,
+    "imageUrl": "https://images.tokopedia.net/img/cache/500-square/VqbcmM/2021/6/21/edd43416-1b99-4cb7-8d03-2646b6c76b09.jpg"
+  },
+  {
+    "productId": "A05",
+    "name": "M&M chocolate bar",
+    "brand": "M&M",
+    "expireDate": "2022-03-28T05:18:27 -07:00",
+    "price": 89000,
+    "category": "food",
+    "quantity": 1,
+    "imageUrl": "https://s4.bukalapak.com/img/93908368672/large/data..webp"
+  },
+  {
+    "productId": "A06",
+    "name": "cadbury chocolate bar",
+    "brand": "cadbury",
+    "expireDate": "2022-03-28T05:18:27 -07:00",
+    "price": 33500,
+    "category": "food",
+    "quantity": 1,
+    "imageUrl": "https://images.tokopedia.net/img/cache/500-square/VqbcmM/2020/6/26/6c7784f6-22cc-4e55-8e8a-33b10e58f554.png"
+  },
+  {
+    "productId": "A07",
+    "name": "sprite lemon can",
+    "brand": "sprite",
+    "expireDate": "2022-03-28T05:18:27 -07:00",
+    "price": 12500,
+    "category": "drink",
+    "quantity": 1,
+    "imageUrl": "https://5.imimg.com/data5/UE/NE/WQ/SELLER-82456434/sprinte-cold-derink-500x500.jpg"
+  },
+  {
+    "productId": "A08",
+    "name": "coca cola zero",
+    "brand": "coca cola",
+    "expireDate": "2022-03-28T05:18:27 -07:00",
+    "price": 11000,
+    "category": "drink",
+    "quantity": 1,
+    "imageUrl": "https://images.unsplash.com/photo-1630404365865-97ff92feba6a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8c29kYSUyMGNhbnxlbnwwfHwwfHw%3D&w=1000&q=80"
+  },
+  {
+    "productId": "A09",
+    "name": "redbull energy drink",
+    "brand": "redbull",
+    "expireDate": "2022-03-28T05:18:27 -07:00",
+    "price": 40000,
+    "category": "drink",
+    "quantity": 1,
+    "imageUrl": "https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full//112/MTA-25568788/red-bull_red-bull-energy-drink-can-250-ml_full01.jpg"
+  },
+  {
+    "productId": "A001",
+    "name": "coca cola original taste 330ml",
+    "brand": "coca cola",
+    "expireDate": "2022-03-28T05:18:27 -07:00",
+    "price": 17800,
+    "category": "drink",
+    "quantity": 1,
+    "imageUrl": "https://cdn3.evostore.io/productimages/vow_premium/l/au00099.jpg"
+  }
+]

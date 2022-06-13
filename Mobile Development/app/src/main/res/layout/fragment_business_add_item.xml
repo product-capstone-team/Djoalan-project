@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:isScrollContainer="true"
+    android:overScrollMode="always" >
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".ui.business.BusinessAddItemFragment">
+
+        <TextView
+            android:id="@+id/label_additem_barcode_business"
+            style="@style/subheaderStyle"
+            android:layout_marginTop="32dp"
+            android:text="@string/label_barcode_addItem"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.073"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/edit_additem_barcode_business"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="24dp"
+            android:importantForAutofill="no"
+            android:inputType="number"
+            android:labelFor="@id/edit_additem_barcode_business"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/label_additem_barcode_business" />
+
+        <ImageView
+            android:id="@+id/barcode_scanner_img"
+            android:layout_width="62dp"
+            android:layout_height="36dp"
+            android:contentDescription="@string/imgDesc_barcode_addItem"
+            app:layout_constraintEnd_toEndOf="@+id/edit_additem_barcode_business"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="@+id/edit_additem_barcode_business"
+            app:layout_constraintTop_toTopOf="@+id/edit_additem_barcode_business"
+            app:srcCompat="@drawable/barcode_scanner_icon" />
+
+        <TextView
+            android:id="@+id/label_additem_productname_business"
+            style="@style/subheaderStyle"
+            android:layout_marginTop="12dp"
+            android:text="@string/label_product_addItem"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.081"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/edit_additem_barcode_business" />
+
+        <EditText
+            android:id="@+id/edit_additem_productname_business"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="24dp"
+            android:importantForAutofill="no"
+            android:inputType="text"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/label_additem_productname_business" />
+
+        <TextView
+            android:id="@+id/label_additem_brand_business"
+            style="@style/subheaderStyle"
+            android:layout_marginTop="12dp"
+            android:text="@string/label_brand_addItem"
+            app:layout_constraintStart_toStartOf="@+id/label_additem_productname_business"
+            app:layout_constraintTop_toBottomOf="@+id/edit_additem_productname_business" />
+
+        <EditText
+            android:id="@+id/edit_additem_brand_business"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="24dp"
+            android:importantForAutofill="no"
+            android:inputType="text"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/label_additem_brand_business" />
+
+        <TextView
+            android:id="@+id/label_additem_category_business"
+            style="@style/subheaderStyle"
+            android:layout_marginTop="12dp"
+            android:text="@string/label_category_addItem"
+            app:layout_constraintStart_toStartOf="@+id/edit_additem_brand_business"
+            app:layout_constraintTop_toBottomOf="@+id/edit_additem_brand_business" />
+
+        <EditText
+            android:id="@+id/edit_additem_category_business"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="24dp"
+            android:importantForAutofill="no"
+            android:inputType="text"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/label_additem_category_business" />
+
+        <TextView
+            android:id="@+id/label_additem_totalstock_business"
+            style="@style/subheaderStyle"
+            android:layout_marginTop="12dp"
+            android:text="@string/label_stock_addItem"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.076"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/edit_additem_category_business" />
+
+        <EditText
+            android:id="@+id/edit_additem_totalstock_business"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="24dp"
+            android:importantForAutofill="no"
+            android:inputType="number"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/label_additem_totalstock_business" />
+
+        <TextView
+            android:id="@+id/label_additem_priceitem_business"
+            style="@style/subheaderStyle"
+            android:layout_marginTop="12dp"
+            android:text="@string/label_price_addItem"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.072"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/edit_additem_totalstock_business" />
+
+        <EditText
+            android:id="@+id/edit_additem_priceitem_business"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="24dp"
+            android:importantForAutofill="no"
+            android:inputType="number"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/label_additem_priceitem_business" />
+
+        <TextView
+            android:id="@+id/label_additem_expiredate_business"
+            style="@style/subheaderStyle"
+            android:layout_marginTop="12dp"
+            android:text="@string/label_expireDate_addItem"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.077"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/edit_additem_priceitem_business" />
+
+        <EditText
+            android:id="@+id/edit_additem_expireddate_business"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="24dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/label_additem_expiredate_business"
+            android:inputType="date"
+            android:importantForAutofill="no" />
+
+        <TextView
+            android:id="@+id/label_additem_addphotosproduct_business"
+            style="@style/subheaderStyle"
+            android:layout_marginTop="8dp"
+            android:text="@string/label_pictures_addItem"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.094"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/edit_additem_expireddate_business" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardview_additem"
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="24dp"
+            android:background="@drawable/bg_cardview_register_business"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/label_additem_addphotosproduct_business">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/camera_btn_additem_business"
+                    style="@style/headerStyle"
+                    android:layout_marginTop="16dp"
+                    android:backgroundTint="@color/tosca"
+                    android:text="@string/btn_camera_addItem"
+                    android:textColor="@color/white"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.059"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <Button
+                    android:id="@+id/gallery_btn_additem_busin"
+                    style="@style/headerStyle"
+                    android:layout_marginTop="24dp"
+                    android:backgroundTint="@color/tosca"
+                    android:text="@string/btn_gallery_addItem"
+                    android:textColor="@color/white"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.062"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/camera_btn_additem_business"
+                    app:layout_constraintVertical_bias="0.25" />
+
+                <ImageView
+                    android:id="@+id/product_photos_additem_business"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:contentDescription="@string/imgDesc_product_addItem"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.859"
+                    app:layout_constraintStart_toEndOf="@+id/camera_btn_additem_business"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:srcCompat="@tools:sample/avatars" />
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <Button
+            android:id="@+id/additem_btn_business"
+            style="@style/headerStyle"
+            android:layout_marginVertical="28dp"
+            android:backgroundTint="@color/tosca"
+            android:text="@string/btn_addItem"
+            android:textColor="@color/white"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cardview_additem" />
+
+        <ProgressBar
+            android:id="@+id/progressBar_addItem"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.dicoding.djoalanapplication.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_navigation_home_to_comparisonFragment"
+            app:destination="@id/comparisonFragment" />
+        <action
+            android:id="@+id/action_navigation_home_to_businessRegisterFragment"
+            app:destination="@id/businessRegisterFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_cart"
+        android:name="com.dicoding.djoalanapplication.ui.cart.CartFragment"
+        android:label="@string/title_cart"
+        tools:layout="@layout/fragment_cart" >
+        <action
+            android:id="@+id/action_navigation_cart_to_orderSummaryFragment2"
+            app:destination="@id/orderSummaryFragment"
+            app:enterAnim="@anim/slide_in_from_right"
+            app:exitAnim="@anim/scale_smaller"
+            app:popEnterAnim="@anim/scale_bigger"
+            app:popExitAnim="@anim/slide_out_to_right" />
+        <action
+            android:id="@+id/action_navigation_cart_to_resultScanFragment"
+            app:destination="@id/resultScanFragment" />
+        <action
+            android:id="@+id/action_navigation_cart_to_detailProductFragment"
+            app:destination="@id/detailProductFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_history"
+        android:name="com.dicoding.djoalanapplication.ui.history.HistoryFragment"
+        android:label="@string/title_history"
+        tools:layout="@layout/fragment_history" >
+        <action
+            android:id="@+id/action_navigation_history_to_detailTransactionFragment"
+            app:destination="@id/detailTransactionFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_profile"
+        android:name="com.dicoding.djoalanapplication.ui.profile.ProfileFragment"
+        android:label="@string/title_profile"
+        tools:layout="@layout/fragment_profile">
+        <action
+            android:id="@+id/action_navigation_profile_to_loginActivity"
+            app:destination="@id/loginActivity"
+            app:popUpTo="@id/loginActivity"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_navigation_profile_to_businessRegisterFragment"
+            app:destination="@id/businessRegisterFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_stock"
+        android:name="com.dicoding.djoalanapplication.ui.business.StockFragment"
+        android:label="@string/title_stock"
+        tools:layout="@layout/fragment_stock" >
+        <action
+            android:id="@+id/action_navigation_stock_to_businessAddItemFragment"
+            app:destination="@id/businessAddItemFragment" />
+        <action
+            android:id="@+id/action_navigation_stock_to_detailProductFragment"
+            app:destination="@id/detailProductFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/orderSummaryFragment"
+        android:name="com.dicoding.djoalanapplication.ui.cart.OrderSummaryFragment"
+        android:label="Order"
+        tools:layout="@layout/fragment_order_summary" >
+        <action
+            android:id="@+id/action_orderSummaryFragment2_to_orderStatusFragment2"
+            app:destination="@id/orderStatusFragment"
+            app:enterAnim="@anim/slide_in_from_right"
+            app:exitAnim="@anim/slide_out_to_left"
+            app:popEnterAnim="@anim/slide_in_from_left"
+            app:popExitAnim="@anim/slide_out_to_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/orderStatusFragment"
+        android:name="com.dicoding.djoalanapplication.ui.cart.OrderStatusFragment"
+        android:label="Status"
+        tools:layout="@layout/fragment_order_status" >
+        <action
+            android:id="@+id/action_orderStatusFragment_to_navigation_home"
+            app:destination="@id/navigation_home"
+            app:popUpTo="@id/navigation_home"
+            app:popUpToInclusive="true"/>
+    </fragment>
+    <fragment
+        android:id="@+id/comparisonFragment"
+        android:name="com.dicoding.djoalanapplication.ui.home.ComparisonFragment"
+        android:label="fragment_comparison"
+        tools:layout="@layout/fragment_comparison" />
+    <activity
+        android:id="@+id/loginActivity"
+        android:name="com.dicoding.djoalanapplication.LoginActivity"
+        android:label="Login"
+        tools:layout="@layout/activity_login" />
+    <fragment
+        android:id="@+id/businessAddItemFragment"
+        android:name="com.dicoding.djoalanapplication.ui.business.BusinessAddItemFragment"
+        android:label="Add Item"
+        tools:layout="@layout/fragment_business_add_item" >
+        <action
+            android:id="@+id/action_businessAddItemFragment_to_resultScanFragment"
+            app:destination="@id/resultScanFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/businessRegisterFragment"
+        android:name="com.dicoding.djoalanapplication.ui.business.BusinessRegisterFragment"
+        android:label="Register Business Account"
+        tools:layout="@layout/fragment_business_register" />
+    <fragment
+        android:id="@+id/detailTransactionFragment"
+        android:name="com.dicoding.djoalanapplication.ui.history.DetailTransactionFragment"
+        android:label="Detail Transaction"
+        tools:layout="@layout/fragment_detail_transaction" >
+        <argument
+            android:name="ArgsData"
+            app:argType="com.dicoding.djoalanapplication.network.response.SafeArgsData" />
+    </fragment>
+    <fragment
+        android:id="@+id/resultScanFragment"
+        android:name="com.dicoding.djoalanapplication.ui.scanner.ResultScanFragment"
+        android:label="Scan Barcode"
+        tools:layout="@layout/fragment_result_scan" />
+    <fragment
+        android:id="@+id/detailProductFragment"
+        android:name="com.dicoding.djoalanapplication.ui.detailproduct.DetailProductFragment"
+        android:label="Detail Product"
+        tools:layout="@layout/fragment_detail_product" >
+        <argument
+            android:name="DetailItemArgs"
+            app:argType="com.dicoding.djoalanapplication.network.response.SafeArgsItems" />
+
+    </fragment>
+
+</navigation>

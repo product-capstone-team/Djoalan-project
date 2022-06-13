@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">Djoalan</string>
+    <string name="label_email">Email</string>
+    <string name="label_password">Password</string>
+    <string name="label_name">Name</string>
+    <string name="btn_register">Register</string>
+    <string name="create_account">didn\'t have account yet?</string>
+    <string name="btn_login">Login</string>
+    <string name="title_activity_dashboard">DashboardActivity</string>
+    <string name="title_home">Home</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="this_is_profile_fragment">This is profile fragment</string>
+    <string name="title_profile">Profile</string>
+    <string name="title_cart">Cart</string>
+    <string name="title_history">History</string>
+    <string name="number_date_text_history">Date :</string>
+    <string name="number_order_text_history">Order :</string>
+    <string name="number_total_text_history">Total :</string>
+
+    <string name="learn_more_desc_home">change the way your customer shopping in your store by giving them freedom and having zero wait-time! it will leading to increase customer satisfaction, increase shopping effectivity and many more positive impact. click learn more to get the details.</string>
+    <string name="learn_more_header_home">Want your shop appear on Djoalan?</string>
+    <string name="learn_more_button_home">Learn More</string>
+    <string name="label_home_best_price">Find Best Price</string>
+    <string name="check_in_button_home">check-in</string>
+    <string name="scan_text_home">Scan Store QR Code</string>
+    <string name="box_home_heading">Ready to start shopping?</string>
+    <string name="box_home_subheading">click icon to read tutorials</string>
+    <string name="biz_account_home">Change Into Business Account</string>
+    <string name="dialog_heading">How to Shop Using Djoalan</string>
+    <string name="dialog_body">Here is 4 steps to buy items using Djoalan: \n1. \ scan store QR code. \n2. scan item barcode. \n3. make sure your item appear on cart. \n4. choose payment method and finish you payment.</string>
+    <string name="dialog_button">Done</string>
+    <string name="title_stock">Stock</string>
+    <string name="title_stock_page">Stock</string>
+
+    <!--  add item page  -->
+    <string name="btn_stock_addItem">Add Item</string>
+    <string name="label_barcode_addItem">Barcode Id</string>
+    <string name="label_product_addItem">Product Name</string>
+    <string name="label_stock_addItem">Total Stocks</string>
+    <string name="label_price_addItem">Price Item</string>
+    <string name="label_expireDate_addItem">Expired Date</string>
+    <string name="label_pictures_addItem">Add Product Photos</string>
+    <string name="btn_camera_addItem">Camera</string>
+    <string name="btn_gallery_addItem">Gallery</string>
+    <string name="btn_addItem">Add Item</string>
+    <string name="imgDesc_barcode_addItem">barcode icon</string>
+    <string name="imgDesc_product_addItem">product image</string>
+    <string name="label_result_qrcode">Result:</string>
+
+    <string name="tagline">Jadikan Bisnismu Otomatis!</string>
+    <string name="label_category_addItem">Category</string>
+    <string name="payment_method_gopay">GOPAY</string>
+    <string name="payment_method_dana">DANA</string>
+    <string name="payment_method_shopeepay">SHOPEEPAY</string>
+    <string name="label_brand_addItem">Brand</string>
+</resources>

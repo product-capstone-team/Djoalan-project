@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_view_history"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginLeft="8dp"
+    android:layout_marginTop="4dp"
+    android:layout_marginRight="8dp"
+    android:layout_marginBottom="4dp"
+    card_view:cardCornerRadius="4dp"
+    android:background="@drawable/bg_cardview_history">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="129dp"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/order_text_history"
+            android:layout_marginStart="6dp"
+            android:layout_marginTop="12dp"
+            style="@style/subheaderStyle"
+            android:text="@string/number_order_text_history"
+            card_view:layout_constraintEnd_toEndOf="parent"
+            card_view:layout_constraintHorizontal_bias="0.048"
+            card_view:layout_constraintStart_toStartOf="parent"
+            card_view:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/date_text_history"
+            style="@style/subheaderStyle"
+            android:layout_marginStart="6dp"
+            android:layout_marginTop="12dp"
+            android:text="@string/number_date_text_history"
+            card_view:layout_constraintEnd_toEndOf="parent"
+            card_view:layout_constraintHorizontal_bias="0.044"
+            card_view:layout_constraintStart_toStartOf="parent"
+            card_view:layout_constraintTop_toBottomOf="@+id/order_text_history" />
+
+        <TextView
+            android:id="@+id/total_text_history"
+            style="@style/subheaderStyle"
+            android:layout_marginStart="6dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="12dp"
+            android:text="@string/number_total_text_history"
+            android:textColor="@color/text_color"
+            card_view:layout_constraintBottom_toBottomOf="parent"
+            card_view:layout_constraintEnd_toEndOf="parent"
+            card_view:layout_constraintHorizontal_bias="0.046"
+            card_view:layout_constraintStart_toStartOf="parent"
+            card_view:layout_constraintTop_toBottomOf="@+id/date_text_history" />
+
+        <TextView
+            android:id="@+id/order_output_history"
+            style="@style/subheaderStyle"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="6dp"
+            android:text="ABC001"
+            card_view:layout_constraintEnd_toEndOf="parent"
+            card_view:layout_constraintHorizontal_bias="0.895"
+            card_view:layout_constraintStart_toEndOf="@+id/order_text_history"
+            card_view:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/date_output_history"
+            style="@style/subheaderStyle"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="6dp"
+            android:text="dd-mm-yyyy"
+            card_view:layout_constraintEnd_toEndOf="parent"
+            card_view:layout_constraintHorizontal_bias="0.898"
+            card_view:layout_constraintStart_toEndOf="@+id/date_text_history"
+            card_view:layout_constraintTop_toBottomOf="@+id/order_output_history" />
+
+        <TextView
+            android:id="@+id/total_output_history"
+            style="@style/subheaderStyle"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="6dp"
+            android:text="Rp 999.000"
+            android:textColor="@color/text_color"
+            card_view:layout_constraintEnd_toEndOf="parent"
+            card_view:layout_constraintHorizontal_bias="0.886"
+            card_view:layout_constraintStart_toEndOf="@+id/total_text_history"
+            card_view:layout_constraintTop_toBottomOf="@+id/date_output_history" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>
