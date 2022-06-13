@@ -34,6 +34,10 @@ This application was built with:
 12. [Glide](https://github.com/bumptech/glide) is a fast and efficient open source media management and image loading framework for Android that wraps media decoding, memory and disk caching, and resource pooling into a simple and easy to use interface.
 13. [TensorFlow Lite](https://www.tensorflow.org/lite) is a mobile library for deploying models on mobile, microcontrollers and other edge devices.
 
+## User Flow
+![Userflow](https://user-images.githubusercontent.com/88386958/173277568-2d4792f3-4372-4430-a2f4-5cd1b5d86fbc.jpeg)
+
+
 ## Google cloud services: 
 - #### Cloud Run 
 Cloud Run is a serverless application, used as a service to deploy the API.
