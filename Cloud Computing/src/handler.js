@@ -9,19 +9,19 @@ const { Storage } = require("@google-cloud/storage");
 
 // ** CLOUD STORAGE ** \\
 const storage = new Storage({
-   projectId: "excellent-ship-351309",
-   keyFilename: serviceKey,
+   projectId: // prodjctId,
+   keyFilename: // servicekey,
 });
-const bucket = storage.bucket("djoalan-item-image-bucket"); // Get this from Google Cloud -> Storage
+const bucket = storage.bucket(""); // Get this from Google Cloud -> Storage
 
 // ** XENDIT ** \\
 const x = new Xendit({
-   secretKey: "xnd_development_paOBsN1tWc428C0QwKBsrOw7i2lWdmzlsRNjVohUy7z5GCpym8u8Cclqh31JYKn",
+   secretKey: // place xendit secret key here
 });
 
 // Setup connection with mongoose
 mongoose
-   .connect("mongodb://34.124.224.131:27017/djoalan?directConnection=true")
+   .connect("") // place your mongodb server here
    .then(() => {
       console.log("database connected");
    })
