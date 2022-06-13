@@ -78,7 +78,7 @@ Used to containerize API by creating a dockerfile to test whether the docker ima
 - [Tensorflow] (https://www.tensorflow.org/api_docs/python)
 
 ### Dataset
-we use Buycott Dataset as input model Convolutional Neural Network (CNN). We took 6000 data images of barcodes from the buycott site containing line patterns and sequence numbers of collection products that were available at retail.
+we use Buycott Dataset as input model Convolutional Neural Network (CNN). We took more than 4000 data images of barcodes from the buycott site containing line patterns and sequence numbers of collection products that were available at retail.
 
 ![00000000129220](https://user-images.githubusercontent.com/89289597/173224825-23114d06-c109-428d-9819-1636ac30eb28.png)
 
