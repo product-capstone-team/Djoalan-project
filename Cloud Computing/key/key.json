@@ -1,12 +1,3 @@
 {
-  "type": "service_account",
-  "project_id": "excellent-ship-351309",
-  "private_key_id": "a087dad886b21a5607d5b95845131f8cc3ea054b",
-  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCd6y0pOP0RuzOO\nrfWvp6YqOCDmmnq+OpKZuCfqYmnn9qTNaisfyqc+u2KS0lRF6UO6J0mFY4jfKEQd\nTL9BqTw/jiffE00J0DY2CkxPQ7acwPWTrsRI/ezySQkayr1X6/zjFu0IFHD4QqB+\nczAuGTZY0YhUflZW8F3Qy2OGzn/hy33w0nLXLAOdWc2bAQvIs8NXcyS1c5HHlb5y\nHJyLZCOS6XlwEtz5/tJSSb/GHGD42znrsQ52lub1gNXaqCDOmEfYN5XRqdlDaQxE\nj5jovUdsHvH2dMffTxtEMTI9dNJKx37N76j0BKPSBrdyVyWTnIKpijkZYpSHutQF\nOEI79aMBAgMBAAECggEAAMQsqCgoKLkjhM4fl1sOji1ZwgVhV6Quac+W0H8qonBh\ncCPTWp8JG5pNI2H2RxpSHKs0AvE2z4vpHt9cZ9B5xo5tWg/p5NnmqHGZeWfpBlbU\nnj3ymC7Uwsp4+wZ9X5nJX0NRR5kHS7ocNU7gaV8wPYM4ndMuNAjsW0mgYD3Rvqtk\nMF6CNK15Gik+eWUH4+rez5fzG+Q0jg7KkaYDKGR2wCO9g2pxobfCGP9FII8xGiNz\nugOLyP48DwV4XpFLYMPJa4jwLEdlzD3QvduIHmLQE85z1Nhr2S5au7sng62jBZcN\n8j0ZCMrHgCL2kYdQJtcL3u/e9T25K9zzyyNWuVhFQQKBgQDT/1htaHTy/4vE9ICZ\nI/SETSZ/ytx2TJ33CYj5FJyqYBUFj+N6VDTiRy0H8cA7VPnO66IGTA2ce2qXeRx5\nNlRsT5Ug/TOuQei+HtKXV3gOTcshaLDX1dPNN2bVci+90StKYhnSc5yGav/ySn44\nN83+MT0HOJ50RuGU3SrcJiMUYQKBgQC+sk+ux+gx5fUZunijYuopjYk07yrMC5Xa\n8bW4khnRfsYKiFwF/sb71CUNsnY2YSQfLNnY2+JRGK2RJWR0rrjd38l7Pva8MUod\n8bs2y7yfzuVFSZdw1chzVCv8kOvePdAHk3Y6aFcb4IHAA4jA9ichUeu1kcyhyQrC\n0Kw5i9cSoQKBgQDN0at9VRuty9Jb3nF3vIOpaunEyiPuKoZ2j+hOwuczNmNSahcU\n7eoGAcpDWz8hm2eIsBY2/OF+GggrlWbCe6/NFBqZ05m4Rb77zhrw2ffyEy7yeZyv\nf6bJJ0+MTPby17+q0MF3I81EZ1+kURRn6i3w6sbwWtTj2OkryOnSoKgQIQKBgEm/\nacN9OhX6CbTegYMmYMqbGwHmsJVisZyPt6hekC+NqIcwPu5unoOLgpzudHsJTE/m\nJ4WPW9HjClTEsjnRzFq6DhBkxET5huFXuAA0AImJGO+Xy0Ju2uuHFM/DOASlwQr9\nA08JRQ7Z3zPj6gI979oZ9V8tuIak2k2HJ+PFafKhAoGAEX3zjR3bTIFZ1LKS/5Mk\nNgwdMhW8eBnAATX/nlV1v21hLX6AzrieGiSY9hPV6yZdhcrvv6iDLGrwvwvBBdnc\nNyDcVGkN6EWWgOeWeSF8dysdvraPRosrph06IhdvNVCkDmcXlCTR0j+IWUiPPldU\nLNj376G5QVU6e0CyU2U6zY4=\n-----END PRIVATE KEY-----\n",
-  "client_email": "djoalan-item-image-viewer@excellent-ship-351309.iam.gserviceaccount.com",
-  "client_id": "100780878805884080125",
-  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
-  "token_uri": "https://oauth2.googleapis.com/token",
-  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
-  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/djoalan-item-image-viewer%40excellent-ship-351309.iam.gserviceaccount.com"
+  // PLACE YOUR SERVICE ACC HERE \\
 }
